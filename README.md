@@ -1,4 +1,4 @@
-[![CircleCI](https://app.circleci.com/pipelines/github/Elkharbash/housing_prediction-ML.svg?style=svg)](https://app.circleci.com/pipelines/github/Elkharbash/housing_prediction-ML)
+[![CircleCI](https://circleci.com/gh/Elkharbash/housing_prediction-ML.svg?style=svg)](https://app.circleci.com/pipelines/github/Elkharbash/housing_prediction-ML)
 
 ## Project Overview
 
