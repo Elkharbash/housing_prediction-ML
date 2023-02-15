@@ -24,20 +24,20 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ---
 ## Getting Started
 1. Setting up the environment
- - 'python -m venv ~/.devops' to create a virtual environment.
- - 'source ~/.devops/bin/activate' to activate the virtual environment.
+ - `python -m venv ~/.devops` to create a virtual environment.
+ - `source ~/.devops/bin/activate` to activate the virtual environment.
 
 2. Running the app
- - run 'make install' in cli in order to install the necessary dependencies
- - run 'hadolint Dockerfile', It uses an abstract syntax tree (AST) to parse your Dockerfile against predefined rulesets
+ - run `make install` in cli in order to install the necessary dependencies
+ - run `hadolint Dockerfile`, It uses an abstract syntax tree (AST) to parse your Dockerfile against predefined rulesets
 
 3. Build the Docker image
- - run './run_docker.sh' to run the application on docker
+ - run `./run_docker.sh` to run the application on docker
 
 4. Upload to docker hub
- - modify the 'upload_docker' script with your docker credentials and edit the $dockerpath to include your information.
- - run './upload_docker.sh' to upload the solution to docker hub
+ - modify the `upload_docker` script with your docker credentials and edit the $dockerpath to include your information.
+ - run `./upload_docker.sh` to upload the solution to docker hub
 
 5. K8s Deployment
- - run 'minikube start' to the k8s cluster
- - run '/run_kuberenetes.sh' to deploy the solution (docker image) to Kuberenetes
+ - run `minikube start` to the k8s cluster
+ - run `/run_kuberenetes.sh` to deploy the solution (docker image) to Kuberenetes
